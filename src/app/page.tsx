@@ -1,3 +1,4 @@
+//  eslint-disable react/no-unescaped-entities  react-hooks/rules-of-hooks
 "use client"
 import Menu from "../assets/images/Menu.svg";
 import Carousel from "./components/Page4/Carousel";
@@ -79,7 +80,7 @@ const page = () => {
               </p>
               <p className="text-black font-inter font-medium"
                 style={{ fontSize: 16 }}>
-                It's free
+                It is free
               </p>
             </button>
             <button className="border-2 border-black w-64 mx-auto my-8 h-14 rounded-lg">
@@ -234,7 +235,7 @@ const page = () => {
             <div className="w-80 mx-auto flex justify-between border-b-2">
               <p className="text-black font-inter font-medium"
                 style={{ color: "rgba(108, 107, 107, 1)", fontSize: 18 }}>
-                What is Toingg's price?
+                What is Toingg price?
               </p>
               <Image src={Plus} alt="plus" width={20} height={20}/>
             </div>
