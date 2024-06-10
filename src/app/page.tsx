@@ -1,4 +1,4 @@
-//  eslint-disable react/no-unescaped-entities  react-hooks/rules-of-hooks
+/* eslint-disable react/no-unescaped-entities react-hooks/rules-of-hooks */
 "use client"
 import Menu from "../assets/images/Menu.svg";
 import Carousel from "./components/Page4/Carousel";
