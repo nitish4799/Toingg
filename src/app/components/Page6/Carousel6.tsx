@@ -1,6 +1,6 @@
 import Card2 from "./Card2";
 import Card3 from "./Card3";
-import Card1 from "./CArd1";
+import Card1 from "./Card1";
 
 const Carousel6 = () => {
   return (
