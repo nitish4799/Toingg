@@ -6,7 +6,7 @@ import Card5 from "./Card5";
 import Card6 from "./Card6";
 const Carousel5 = () => {
     return (
-        <div className="w-full carousel rounded-box items-center h-screen">
+        <div className="w-full carousel items-center h-screen">
             <div className="carousel-item">
                 <Card1/>
             </div>
