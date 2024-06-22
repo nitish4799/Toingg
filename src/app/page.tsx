@@ -133,6 +133,10 @@ const page = () => {
           </div>
         </div>
 
+        <div>
+        <iframe src="http://localhost:5173/Chatbot" frameborder="0"></iframe>
+        </div>
+
         {/* page3 */}
         <div className="h-screen">
           <div className="w-96 mx-auto pt-28">
