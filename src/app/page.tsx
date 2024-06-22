@@ -134,7 +134,7 @@ const page = () => {
         </div>
 
         <div>
-        <iframe src="http://localhost:5173/Chatbot" frameborder="0"></iframe>
+        <iframe src="http://localhost:5173/Chatbot"></iframe>
         </div>
 
         {/* page3 */}
