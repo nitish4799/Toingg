@@ -1,7 +1,21 @@
 {
-    "cors": {
-      "allowedOrigins": ["http://localhost:5173"],
-      "methods": ["GET", "POST", "OPTIONS"],
-      "headers": ["Content-Type", "Authorization"]
-    }
+    "headers": [
+      {
+        "source": "/:path*",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "http://localhost:5173"
+          },
+          {
+            "key": "Access-Control-Allow-Methods",
+            "value": "GET, POST, OPTIONS"
+          },
+          {
+            "key": "Access-Control-Allow-Headers",
+            "value": "Content-Type, Authorization"
+          }
+        ]
+      }
+    ]
   }
