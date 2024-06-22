@@ -133,8 +133,8 @@ const page = () => {
           </div>
         </div>
 
-        <div>
-        <iframe src="http://localhost:5173/Chatbot"></iframe>
+        <div className="h-screen w-full">
+          <iframe src="https://chatbot-roan-seven.vercel.app/Chatbot" height="screen"></iframe>
         </div>
 
         {/* page3 */}
